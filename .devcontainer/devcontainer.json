@@ -8,9 +8,9 @@
   ],
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
   "postAttachCommand": "git pull --all && npm start",
-  "forwardPorts": [3000],
+  "forwardPorts": [5173],
    "portsAttributes": {
-        "3000": {
+        "5173": {
 	    "visibility": "public"
 	}
     }
